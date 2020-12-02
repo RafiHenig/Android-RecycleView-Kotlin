@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="person"
+            type="com.example.recycleview.ui.main.Person" />
+    </data>
+    <TextView
+        android:id="@+id/text_item_view"
+        android:layout_width="match_parent"
+        android:text="@{person.age}"
+        android:layout_height="wrap_content"/>
+
+</layout>
